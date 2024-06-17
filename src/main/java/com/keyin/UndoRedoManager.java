@@ -98,6 +98,8 @@ public class UndoRedoManager<T> {
         System.out.println("Current state: " + undoRedoManager.currentState.state);
         undoRedoManager.redo();
         System.out.println("Current state: " + undoRedoManager.currentState.state);
+
+
     }
 
 
